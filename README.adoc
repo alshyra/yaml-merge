@@ -1,4 +1,18 @@
 = Yaml Merge
 
-This is a simple pyhton script for merging yaml files.
+This is a simple python script for merging yaml files.
 
+It merges the contents of the yaml files into one.
+
+== Install
+
+[source,bash]
+----
+pip install -r requirements.txt
+----
+
+== Usage
+
+----
+./yaml.merge.py --help
+----
