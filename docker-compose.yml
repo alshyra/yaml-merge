@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  config-merge:
+    image: config-merge
+    build:
+      context: .
+    volumes:
+      - .:/app
